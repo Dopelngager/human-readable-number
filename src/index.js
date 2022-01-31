@@ -54,7 +54,7 @@ module.exports = function toReadable(number) {
             return `${onesArray[numberStr[0]]} ` + handrStr;
         } else if (numberStr[1] === "0") {
             return (
-                `${unitonesArrayArr[numberStr[0]]} ` +
+                `${onesArray[numberStr[0]]} ` +
                 handrStr +
                 ` ${onesArray[numberStr[2]]}`
             );
